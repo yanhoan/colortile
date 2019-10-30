@@ -1,0 +1,29 @@
+body{
+	display: inline-block;
+	text-align: center;
+	background-color: #555555;
+	color:#ffffff;
+	width:100%;
+	margin-right:auto;
+	margin-left:auto;
+
+}
+div{
+	align:center;
+	text-align: center
+}
+html{
+	overflow: hidden
+}
+
+iframe{
+
+	border: none;
+	background: #FFFFFF
+}
+
+canvas{
+	width:400;
+	height:300;
+	background-color: #333333
+}

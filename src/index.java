@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/index")
+@WebServlet("/ColorTile")
 public class index extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     public index() {
@@ -22,7 +22,7 @@ public class index extends HttpServlet {
     	//リクエストした文字コードを変換
 		request.setCharacterEncoding("UTF-8");
 
-		RequestDispatcher dispatch = request.getRequestDispatcher("/jsp/list.jsp");
+		RequestDispatcher dispatch = request.getRequestDispatcher("index.jsp");
 		dispatch.forward(request, response);
 	}
 

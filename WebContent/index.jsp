@@ -15,7 +15,7 @@
 <link href="${pageContext.request.contextPath}/css/style.css" rel="stylesheet" type="text/css" >
 </head>
 <body align="center"class="body1">
-	<form action="/ColorTile/index" method="post">
+	<form action="/ColorTile/ColorTile" method="post">
 		<select name="cellselect">
 			<option value="3">3</option>
 			<option value="4">4</option>
